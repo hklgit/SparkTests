@@ -1,0 +1,2 @@
+type=command
+command=sh ../bin/spark2kafka.sh  -t ${day}
