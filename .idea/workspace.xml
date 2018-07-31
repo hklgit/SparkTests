@@ -27,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaTest.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KafkaTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/kafka/KafkaTest.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
@@ -35,6 +35,25 @@
               <folding>
                 <element signature="e#16#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.cmd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.cmd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatis.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="594">
+              <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -69,16 +88,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="etl_const.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/config/etl_const.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spark2kafka.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/spark2kafka.sh">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-assembly-spark2kafka.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package-assembly-spark2kafka.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package-assembly-spark2kafka.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            <state relative-caret-position="459">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -104,16 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spark2kafka.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark2kafka.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -199,11 +198,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/kafkaV2/ExecKafka.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/kafkaV2/RDDKafkaWriter.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/kafkaV2/Exec.scala" />
-        <option value="$PROJECT_DIR$/package-assembly-spark2kafka.xml" />
         <option value="$PROJECT_DIR$/bin/spark2kafka.sh" />
         <option value="$PROJECT_DIR$/src/main/scala/kafka/KafkaSink.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/kafka/KafkaTest.scala" />
+        <option value="$PROJECT_DIR$/readme.cmd" />
+        <option value="$PROJECT_DIR$/package-assembly-spark2kafka.xml" />
       </list>
     </option>
   </component>
@@ -286,6 +286,17 @@
               <item name="SparkTests" type="462c0819:PsiDirectoryNode" />
               <item name="job" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SparkTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SparkTests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SparkTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -296,7 +307,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -589,7 +600,7 @@
       <workItem from="1532660856386" duration="3947000" />
       <workItem from="1532671083101" duration="870000" />
       <workItem from="1532674311791" duration="13628000" />
-      <workItem from="1533023232341" duration="26000" />
+      <workItem from="1533023232341" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="hankl用来测试的">
       <created>1527045696596</created>
@@ -633,11 +644,32 @@
       <option name="project" value="LOCAL" />
       <updated>1533022997394</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="data from spark 2 kafka">
+      <created>1533023270278</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533023270278</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add readme.........">
+      <created>1533024650104</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533024650104</updated>
+    </task>
+    <task id="LOCAL-00009" summary="pom文件修改。。。。。。。。">
+      <created>1533024947261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533024947261</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123677000" />
+    <option name="totallyTimeSpent" value="125575000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -648,13 +680,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1688172" sideWeight="0.078891255" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37526882" sideWeight="0.078891255" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21290323" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23240939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17537314" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -740,7 +772,9 @@
     <MESSAGE value="hankl用来测试的" />
     <MESSAGE value="hankl用来测试的aaaa" />
     <MESSAGE value="data from spark 2 kafka" />
-    <option name="LAST_COMMIT_MESSAGE" value="data from spark 2 kafka" />
+    <MESSAGE value="add readme........." />
+    <MESSAGE value="pom文件修改。。。。。。。。" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom文件修改。。。。。。。。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -749,14 +783,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/hankl/spark/test/SecondOrdered.scala" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.0.0.2.5.0.0-1245/spark-core_2.11-2.0.0.2.5.0.0-1245-sources.jar!/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2781">
-          <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/javainstall/jdk/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15687">
@@ -904,14 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-assembly-spark2kafka.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/spark2kafka.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -951,6 +969,29 @@
           <folding>
             <element signature="e#16#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="594">
+          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-assembly-spark2kafka.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
