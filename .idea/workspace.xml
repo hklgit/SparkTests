@@ -576,7 +576,7 @@
       <workItem from="1532592652734" duration="6845000" />
       <workItem from="1532660856386" duration="3947000" />
       <workItem from="1532671083101" duration="870000" />
-      <workItem from="1532674311791" duration="12597000" />
+      <workItem from="1532674311791" duration="12906000" />
     </task>
     <task id="LOCAL-00001" summary="hankl用来测试的">
       <created>1527045696596</created>
@@ -617,10 +617,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122620000" />
+    <option name="totallyTimeSpent" value="122929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
