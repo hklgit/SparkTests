@@ -317,6 +317,29 @@
                             <minimizeJar>false</minimizeJar>
                             <artifactSet>
                                 <includes>
+                                    <!-- <groupId>com.datastax.cassandra</groupId>
+            <artifactId>cassandra-driver-core</artifactId>-->
+                                    <include>com.twitter:jsr166e</include>
+                                    <include>com.datastax.spark:spark-cassandra-connector_2.11</include>
+                                    <include>com.datastax.spark:cassandra-driver-core</include>
+                                    <include>org.elasticsearch:elasticsearch-cli</include>
+                                    <include>org.elasticsearch:elasticsearch-secure-sm</include>
+                                    <include>org.elasticsearch:elasticsearch-hadoop</include>
+                                    <include>org.elasticsearch:jna</include>
+                                    <include>org.elasticsearch:elasticsearch-core</include>
+                                    <include>org.elasticsearch.plugin:transport-netty4-client</include>
+                                    <include>org.elasticsearch.plugin:reindex-client</include>
+                                    <include>org.elasticsearch.plugin:percolator-client</include>
+                                    <include>org.elasticsearch.plugin:delete-by-query</include>
+                                    <include>org.elasticsearch.plugin:lang-mustache-client</include>
+                                    <include>org.elasticsearch.plugin:parent-join-client</include>
+                                    <include>org.elasticsearch.plugin:rank-eval-client</include>
+                                    <include>org.elasticsearch:elasticsearch-spark-20_2.11</include>
+                                    <include>org.elasticsearch:elasticsearch</include>
+                                    <include>org.elasticsearch.client:transport</include>
+                                    <include>org.elasticsearch:elasticsearch-x-content</include>
+                                    <include>com.coocaa.protobuf:data-protobuf</include>
+                                    <include>com.qcloud.cmq:cmq</include>
                                     <include>com.coocaa.common:data-common</include>
                                     <include>com.yammer.metrics:metrics-core</include>
                                     <include>org.apache.spark:spark-streaming-kafka-0-8_2.11</include>
@@ -331,11 +354,12 @@
                                     <include>org.apache.hbase:hbase-server</include>
                                     <include>org.apache.hbase:hbase-common</include>
                                     <include>org.apache.hbase:hbase-client</include>
-                                    <include>org.apache.hbase:base-protocol</include>
+                                    <include>org.apache.hbase:hbase-protocol</include>
                                     <include>org.apache.hbase:hbase-hadoop-compat</include>
                                     <include>org.apache.htrace:htrace-core</include>
-                                    <include>log4j:log4j</include>
+                                    <!--<include>log4j:log4j</include>-->
                                     <include>com.github.diamond:super-diamond-client</include>
+                                    <include>org.jblas</include>
                                 </includes>
                             </artifactSet>
                         </configuration>
@@ -391,6 +415,16 @@
                         </configuration>
                     </execution>
                 </executions>
+                <configuration>
+                    <!--<scalaVersion>${scala.version}</scalaVersion>-->
+                    <args>
+                        <arg>-target:jvm-1.7</arg>
+                    </args>
+                    <!-- jdk7开始字符串常量池被移到了Heap空间，字符串太多要注意uncaught exception during compilation: java.lang.StackOverflowError -->
+                    <jvmArgs>
+                        <jvmArg>-Xss20480K</jvmArg>
+                    </jvmArgs>
+                </configuration>
             </plugin>
         </plugins>
     </build>
