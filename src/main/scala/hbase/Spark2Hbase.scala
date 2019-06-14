@@ -2,14 +2,15 @@ package com.coocaa.hbase
 
 import com.coocaa.common.DateUtil
 import org.apache.hadoop.conf.Configuration
-import org.apache.hadoop.hbase.HBaseConfiguration
-import org.apache.hadoop.hbase.client.{Put, Result}
+import org.apache.hadoop.hbase.{HBaseConfiguration, HColumnDescriptor, HTableDescriptor, TableName}
+import org.apache.hadoop.hbase.client._
 import org.apache.hadoop.hbase.io.ImmutableBytesWritable
 import org.apache.hadoop.hbase.mapreduce.TableOutputFormat
 import org.apache.hadoop.hbase.util.Bytes
 import org.apache.hadoop.mapreduce.Job
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
+
 
 /**
   * Created by Kerven on 2019/6/12.
@@ -147,7 +148,7 @@ object Spark2Hbase {
     * @param hTableName 表名
     * @param cf         对应的列族
     */
-  /*def createHTable(hbaseConf: Configuration, hTableName: String, cf: String) {
+  def createHTable(hbaseConf: Configuration, hTableName: String, cf: String) {
     var conn: Connection = null
     var admin: Admin = null
     try {
@@ -157,6 +158,8 @@ object Spark2Hbase {
         val tableDescriptor = new HTableDescriptor(TableName.valueOf(hTableName))
         tableDescriptor.addFamily(new HColumnDescriptor(cf))
         admin.createTable(tableDescriptor)
+      }else{
+        println("table already exits")
       }
     } catch {
       case e: Exception => e.printStackTrace()
@@ -165,7 +168,7 @@ object Spark2Hbase {
       conn.close()
     }
 
-  }*/
+  }
 }
 
 
