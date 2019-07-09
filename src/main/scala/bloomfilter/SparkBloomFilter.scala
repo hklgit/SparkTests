@@ -33,6 +33,8 @@ import org.apache.spark.sql.SparkSession
   * 更好的提升效率
   * 这里吧测试的过程给记录下来，供探讨
   *
+  * ps:在实际的使用过程中发现问题。参数调整过大之后，基本失去了作用。
+  *
   */
 object SparkBloomFilter {
 
