@@ -303,6 +303,13 @@
             <version>5.0.9</version>
         </dependency>
 
+        <!--spark mongodb connector kerven 19-07-09-->
+        <dependency>
+            <groupId>org.mongodb.spark</groupId>
+            <artifactId>mongo-spark-connector_2.11</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>

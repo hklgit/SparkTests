@@ -279,5 +279,8 @@
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: ch.qos.logback:logback-access:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: fastutil:fastutil:5.0.9" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb.spark:mongo-spark-connector_2.11:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.8.2" level="project" />
   </component>
 </module>
