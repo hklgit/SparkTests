@@ -20,6 +20,7 @@ public class MyLRU<K,V> extends LinkedHashMap<K,V> {
 //那个f如果不加  就是double类型，然后该构造没有该类型的入参。 然后最为关键的就是那个入参 true
         super(16, 0.75f, true);
         this.cacheSize = cacheSize;
+        System.out.println("version 1");
     }
 
 
