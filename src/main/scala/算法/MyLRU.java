@@ -22,6 +22,7 @@ public class MyLRU<K,V> extends LinkedHashMap<K,V> {
         this.cacheSize = cacheSize;
         System.out.println("version 2");
         System.out.println("version 4 923");
+        System.out.println("version 1");
     }
 
 
