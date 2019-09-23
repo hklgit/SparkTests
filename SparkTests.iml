@@ -13,6 +13,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="scala-sdk-2.12.21" level="application" />
+    <orderEntry type="library" name="Maven: org.mongodb.spark:mongo-spark-connector_2.11:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.8.2" level="project" />
     <orderEntry type="library" name="Maven: com.coocaa.common:data-common:0.0.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.spark:spark-core_2.11:2.0.0.2.5.0.0-1245" level="project" />
     <orderEntry type="library" name="Maven: org.apache.avro:avro-mapred:hadoop2:1.7.7" level="project" />
@@ -66,8 +68,6 @@
     <orderEntry type="library" name="Maven: org.json4s:json4s-jackson_2.11:3.2.11" level="project" />
     <orderEntry type="library" name="Maven: org.json4s:json4s-core_2.11:3.2.11" level="project" />
     <orderEntry type="library" name="Maven: org.json4s:json4s-ast_2.11:3.2.11" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scalap:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: org.scala-lang:scala-compiler:2.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.22.2" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.hk2:hk2-api:2.4.0-b34" level="project" />
@@ -282,5 +282,9 @@
     <orderEntry type="library" name="Maven: fastutil:fastutil:5.0.9" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb.spark:mongo-spark-connector_2.11:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: org.mongodb:mongo-java-driver:3.8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.redislabs:spark-redis:2.3.1-RC1" level="project" />
+    <orderEntry type="library" name="Maven: com.redislabs:jedis:3.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scalap:2.11.8" level="project" />
+    <orderEntry type="library" name="Maven: org.scala-lang:scala-compiler:2.11.8" level="project" />
   </component>
 </module>
