@@ -21,7 +21,7 @@ object KafkaTest {
   def main(args: Array[String]): Unit = {
 
     val logger = LoggerFactory.getLogger(this.getClass)
-    val conf = new SparkCon()
+    val conf 
 //    conf.setMaster("local[*]")
     conf.setAppName(s"${this.getClass.getSimpleName}")
 //    val sc: SparkContext = new SparkContext(conf)
